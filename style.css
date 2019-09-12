@@ -1,0 +1,80 @@
+h1,
+h2 {
+    color: skyblue;
+    font-family: "Comic Sans MS";
+}
+h2 {
+    font-size: 14px;
+}
+td,
+th {
+    border: 1px solid slategrey;
+    padding-left: 2em;
+    margin: 2px;
+}
+
+td {
+    text-align: center;
+
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+    margin-top: 1px;
+}
+
+th[scope="col"] {
+    background-color: black;
+    color: whitesmoke;
+}
+
+th[scope="row"] {
+    background-color: lightslategrey;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+div {
+    padding: 10px;
+    border: solid dimgrey;
+    margin-top: 10px;
+}
+.class_c {
+    background-color: rgb(255, 112, 56);
+    text-decoration-color: rgb(255, 112, 56);
+    color: green;
+    cursor: pointer;
+    padding: 1em
+}
+.class_f {
+    background-color: mediumvioletred;
+    text-decoration-color: mediumvioletred;
+    color: black;
+    cursor: pointer;
+    padding: 1em
+}
+.class_h {
+    background-color: mediumaquamarine;
+    text-decoration-color: mediumaquamarine;
+    color: black;
+    cursor: pointer;
+    padding: 1em
+}
+.class_g {
+    background-color: gold;
+    text-decoration-color: gold;
+    color: black;
+    cursor: pointer;
+    padding: 1em
+}
+
+:any-link {
+    color: currentColor;
+}
+td:hover {
+    background-color: orangered;
+}
