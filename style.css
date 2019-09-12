@@ -78,3 +78,9 @@ div {
 td:hover {
     background-color: orangered;
 }
+div {
+    background-color: grey;
+}
+table {
+    border: solid dimgrey;
+}
